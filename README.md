@@ -1,0 +1,2 @@
+# End-to-end-ML-pipeline-for-predicting-recessions-using-yield-curves-and-macroeconomic-analysis
+Comprehensive, end-to-end recession prediction pipeline leveraging yield curve spreads, credit spreads, and labor market dynamics. Includes automated FRED data ingestion, advanced EDA with high-quality visuals, feature engineering, hypothesis testing, ML models (Logit, RF, XGBoost), robust cross-validation, diagnostics and multi-horizon forecasting
