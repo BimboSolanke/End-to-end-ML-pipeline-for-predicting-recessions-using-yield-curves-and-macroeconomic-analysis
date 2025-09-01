@@ -22,4 +22,4 @@ cd recession-prediction-analysis
 pip install -r requirements.txt
 
 # Run analysis
-_recessionprediction_analysis_python_notebook
+_recession_prediction_analysis_python_notebook
