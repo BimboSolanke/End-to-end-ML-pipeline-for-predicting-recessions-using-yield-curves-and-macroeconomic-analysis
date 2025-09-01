@@ -33,7 +33,7 @@ _recession_prediction_analysis_python_notebook
 - Comprehensive robustness testing across economic regimes
 
 ## Feedback Implementation
-This project incorporates substantial improvements based on professor feedback:
+This project incorporates substantial improvements based on prof. Omid's feedback:
 1. **Statistical Rigor**: Reformulated hypotheses with testable null/alternative pairs
 2. **Expanded Analysis**: Incorporated multiple yield spreads beyond 3M-10Y
 3. **Hypothesis Linkage**: Connected descriptive findings directly to research hypotheses
