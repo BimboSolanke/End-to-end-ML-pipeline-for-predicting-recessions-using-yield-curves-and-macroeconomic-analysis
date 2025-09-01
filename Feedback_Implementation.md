@@ -14,7 +14,7 @@ This document details how professor feedback from Part 1 was systematically addr
 ### Implementation
 
 #### Reformulated Hypotheses
-We transformed descriptive hypotheses into formal statistical tests:
+Transformed descriptive hypotheses into formal statistical tests:
 
 **Hypothesis 1 - Yield Curve Inversion:**
 - **H₀**: An inverted yield curve (10Y-3M < 0) does not increase recession probability within 12 months (β₁ = 0)
