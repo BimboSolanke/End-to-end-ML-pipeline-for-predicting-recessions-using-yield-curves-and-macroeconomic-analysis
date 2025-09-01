@@ -35,3 +35,6 @@ Author
 Bimbo Olukoya Solanke
 Course
 Summer 2025 Data Analytics Case Study 3 (DAMO-611-6)
+
+Professor/ Supervisor
+Prof. Omid Isfahanialamdari 
