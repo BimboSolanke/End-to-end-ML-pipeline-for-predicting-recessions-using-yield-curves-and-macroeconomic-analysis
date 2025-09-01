@@ -23,3 +23,15 @@ pip install -r requirements.txt
 
 # Run analysis
 _recession_prediction_analysis_python_notebook
+
+Key Features
+
+Yield curve inversion analysis
+Random Forest and XGBoost models
+12-month forward recession prediction
+ROC AUC: 0.817
+
+Author
+Bimbo Olukoya Solanke
+Course
+Summer 2025 Data Analytics Case Study 3 (DAMO-611-6)
