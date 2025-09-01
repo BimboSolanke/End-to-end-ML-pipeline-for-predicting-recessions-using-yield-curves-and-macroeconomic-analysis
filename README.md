@@ -57,7 +57,7 @@ Best Model: Random Forest (AUC 0.817) outperforms logistic regression (AUC 0.769
 Key Predictors: Unemployment dynamics (39.2%), Term spread (31.5%), Credit spread (23.6%)
 
 **Academic Context**
-Course:Summer 2025 Data Analytics Case Study 3 (DAMO-611-6)
+Course: Data Analytics Case Study 3 (DAMO-611-6)
 Institution: University of Niagara Falls, Canada
 Instructor: Prof. Omid Isfahanialamdari
 Term: Summer 2025
