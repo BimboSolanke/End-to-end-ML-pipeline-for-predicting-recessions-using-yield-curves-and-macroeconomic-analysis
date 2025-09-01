@@ -1,7 +1,8 @@
 # Recession Prediction Analysis
 
-## Project Description
-Machine learning analysis to predict US recessions using economic indicators including yield curves, unemployment, and credit spreads.
+## Project Overview
+This project develops machine learning models to predict U.S. recessions using yield curve inversions, credit spreads, and macroeconomic indicators. 
+The analysis addresses key feedback from initial submission and implements comprehensive statistical testing and robustness checks.
 
 ## Data
 - Treasury yields from Federal Reserve H.15 dataset
@@ -15,8 +16,8 @@ Machine learning analysis to predict US recessions using economic indicators inc
 ## Installation & Usage
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/recession-prediction-analysis.git
-cd recession-prediction-analysis
+(https://github.com/BimboSolanke/End-to-end-ML-pipeline-for-predicting-recessions-using-yield-curves-and-macroeconomic-analysis)
+cd _recession-prediction-analysis
 
 # Install dependencies
 pip install -r requirements.txt
@@ -24,17 +25,42 @@ pip install -r requirements.txt
 # Run analysis
 _recession_prediction_analysis_python_notebook
 
-Key Features
+## Key Features
+- Statistical hypothesis testing with formal null/alternative formulations
+- Multiple yield spread analysis (8 different maturity combinations)
+- Random Forest and XGBoost models, Random Forest model achieving 0.817 AUC
+- 12-month forward recession prediction
+- Comprehensive robustness testing across economic regimes
 
-Yield curve inversion analysis
-Random Forest and XGBoost models
-12-month forward recession prediction
-ROC AUC: 0.817
+## Feedback Implementation
+This project incorporates substantial improvements based on professor feedback:
+1. **Statistical Rigor**: Reformulated hypotheses with testable null/alternative pairs
+2. **Expanded Analysis**: Incorporated multiple yield spreads beyond 3M-10Y
+3. **Hypothesis Linkage**: Connected descriptive findings directly to research hypotheses
 
-Author
+See [docs/Feedback_Implementation.md](docs/Feedback_Implementation.md) for detailed responses.
+
+## Repository Structure
+├── data/                    # Raw and processed data files
+├── notebooks/               # Jupyter notebooks for analysis
+├── src/                     # Python source code
+├── results/                 # Model outputs and visualizations
+├── docs/                    # Documentation
+│   ├── Feedback_Implementation.md
+│   ├── Statistical_Tests.md
+│   └── Robustness_Analysis.md
+└── requirements.txt         # Python dependencies
+
+**Results Summary**
+Primary Finding: Yield curve inversions predict recessions with 71.4% accuracy within 18 months
+Best Model: Random Forest (AUC 0.817) outperforms logistic regression (AUC 0.769)
+Key Predictors: Unemployment dynamics (39.2%), Term spread (31.5%), Credit spread (23.6%)
+
+**Academic Context**
+Course:Summer 2025 Data Analytics Case Study 3 (DAMO-611-6)
+Institution: University of Niagara Falls, Canada
+Instructor: Prof. Omid Isfahanialamdari
+Term: Summer 2025
+
+**Author**
 Bimbo Olukoya Solanke
-Course
-Summer 2025 Data Analytics Case Study 3 (DAMO-611-6)
-
-Professor/ Supervisor
-Prof. Omid Isfahanialamdari 
