@@ -23,7 +23,8 @@ cd _recession-prediction-analysis
 pip install -r requirements.txt
 
 # Run analysis
-_recession_prediction_analysis_python_notebook
+_recession_prediction_analysis_python_notebook_finalVer
+(for full automation, code is written to access required data listed above straight from the web, however the local copies of the data are attached here.)
 
 ## Key Features
 - Statistical hypothesis testing with formal null/alternative formulations
@@ -42,7 +43,8 @@ See [docs/Feedback_Implementation.md](docs/Feedback_Implementation.md) for detai
 
 ## Repository Structure
 ├── data/                    # Raw and processed data files
-├── notebooks/               # Jupyter notebooks for analysis
+├── notebooks/               # Jupyter notebooks for analysis (developed to run automatically while loading all relevant data from the web)
+├── notebooks/               # .py notebook same as jupyter (backup) (developed to run automatically while loading all relevant data from the web)
 ├── src/                     # Python source code
 ├── results/                 # Model outputs and visualizations
 ├── docs/                    # Documentation
@@ -50,7 +52,7 @@ See [docs/Feedback_Implementation.md](docs/Feedback_Implementation.md) for detai
 │   ├── Statistical_Tests.md
 │   └── Robustness_Analysis.md
 └── requirements.txt         # Python dependencies
-
+(All local copies of data accessed directly from the web are attached here as well)
 **Results Summary**
 Primary Finding: Yield curve inversions predict recessions with 71.4% accuracy within 18 months
 Best Model: Random Forest (AUC 0.817) outperforms logistic regression (AUC 0.769)
