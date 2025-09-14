@@ -143,8 +143,8 @@ Created comprehensive spread matrix with 8 combinations:
   - `temporal_stability_test()`
   - `interaction_effects()`
 
-Feedback 2
-###To address class imbalance,
+### Feedback 2
+### To address class imbalance
 - I applied class-weighting in all models.
 - The logistic regression models were fit with balanced class weights, the Random Forest was trained with&nbsp;class_weight='balanced', and XGBoost used the appropriate&nbsp;scale_pos_weight.
 - This ensures the rare recession class is appropriately weighted during training.
