@@ -143,6 +143,18 @@ Created comprehensive spread matrix with 8 combinations:
   - `temporal_stability_test()`
   - `interaction_effects()`
 
+Feedback 2
+###To address class imbalance,
+- I applied class-weighting in all models.
+- The logistic regression models were fit with balanced class weights, the Random Forest was trained with&nbsp;class_weight='balanced', and XGBoost used the appropriate&nbsp;scale_pos_weight.
+- This ensures the rare recession class is appropriately weighted during training.
+
+- I also tuned the Random Forest more thoroughly.
+- Using time-series cross-validation and randomized grid search, I optimized its hyperparameters (number of trees, max depth, min samples per split/leaf, etc.) rather than relying on defaults. This resulted in a better-performing model.
+
+- Finally, I applied consistent evaluation metrics across all models.
+- I calculated ROC-AUC, Precision-Recall AUC (average precision), balanced accuracy, F1 score, and Brier score for each model, ensuring an apples-to-apples comparison of performance.
+
 ## Validation and Testing
 
 All implementations underwent rigorous validation:
